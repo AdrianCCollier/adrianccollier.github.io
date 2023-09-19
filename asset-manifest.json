@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.53107004.css",
+    "main.js": "/static/js/main.77b77a19.js",
+    "static/media/WEPA.png": "/static/media/WEPA.81d5f135ee69afa26d80.png",
+    "static/media/AdrianCollierResume.pdf": "/static/media/AdrianCollierResume.fe6ead459c817b757b76.pdf",
+    "static/media/Snek.png": "/static/media/Snek.b82a33385ed0d233eb03.png",
+    "index.html": "/index.html",
+    "main.53107004.css.map": "/static/css/main.53107004.css.map",
+    "main.77b77a19.js.map": "/static/js/main.77b77a19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53107004.css",
+    "static/js/main.77b77a19.js"
+  ]
+}
