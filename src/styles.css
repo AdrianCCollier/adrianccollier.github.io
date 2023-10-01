@@ -17,12 +17,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  background-color: #21262d;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   
 }
 
 /* My Project Boxes */
 body {
+  background-color: #0d1117;
   color: rgba(255, 255, 255, 0.75);
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.65;
@@ -43,14 +47,21 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #858ae3;
+  background-color: #161b22;
   color: white;
-  padding: 0 16rem;
+  padding: 1 2rem;
   height: 3rem;
   font-family: 'Press Start 2P', sans-serif;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+a {
+  color: #58a6ff;
+}
+
+a:hover {
+  color: #1f6feb;
+}
 .menu {
   display: flex;
   list-style: none;
@@ -101,28 +112,14 @@ nav {
     line-height: 1.5;
 }
 
-.picture {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 200px;
-    margin-right: 20px;
-    overflow: hidden;
-    
-}
 
-.picture img {
-    width: 100%;
-    border-radius: 50%;
-}
 
 .bio {
     flex: 1;
-    background-color: #ffffff;
+    background-color: #161b22;
     padding: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #000000;
+    color: #c9d1d9;
     border-radius: 40px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
@@ -164,14 +161,14 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  border: solid 5px purple;
+  
   
 }
 
 .thumbnails .box {
   margin: 0em 1em 2em 1em;
   width: 30%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(96, 86, 86);
 }
 
 /* Box */
@@ -232,8 +229,8 @@ body {
 /* Footer Code */
 
 #footerWrapper {
-  background-color: #2c0735;
-  color: #fff;
+  background-color: #161b22;
+  color: #c9d1d9;
   padding: 2.5rem 0;
   text-align: center;
   position: fixed;
@@ -248,7 +245,9 @@ body {
   gap: 1rem;
 }
 #footerLinks a {
-    color: #fff;
+    color: #c9d1d9;
+    padding: 10px;
+    border-radius: 4px;
     transition: color 0.2s ease-in-out;
 }
 
@@ -337,7 +336,7 @@ body {
   }
 
   #footerWrapper {
-    padding: 2.5rem 8rem;
+    padding: 1rem 5rem;
   }
 }
 
